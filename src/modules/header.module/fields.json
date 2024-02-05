@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Title",
+    "name": "title",
+    "type": "text",
+    "required": true,
+    "locked": false,
+    "validation_regex": "",
+    "allow_new_line": false,
+    "show_emoji_picker": false,
+    "default": ""
+  },
+  {
+    "label": "Description",
+    "default": "<h1>Hello, world!</h1>",
+    "locked": false,
+    "name": "description",
+    "required": false,
+    "type": "richtext",
+    "validation_regex": ""
+  }
+]

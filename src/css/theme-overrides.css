@@ -1,0 +1,4 @@
+footer {
+  background-color: {{theme.footer.background_color.rgb }};
+  color: {{theme.footer.text_color.rgb }};
+}

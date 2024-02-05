@@ -1,0 +1,32 @@
+{
+  "name": "hubspot-tailwind-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Gabriel Menezes (https://mnzs.dev)",
+  "license": "MIT",
+  "description": "A simple template to use Tailwind CSS with HubSpot CMS",
+  "scripts": {
+    "build": "rm -rf dist && webpack --mode production",
+    "deploy": "rm -rf dist && webpack --mode production && hs upload dist hubspot-tailwind",
+    "start": "rm -rf dist && webpack --watch --mode production --env autoupload",
+    "upload": "hs upload dist hubspot-tailwind"
+  },
+  "devDependencies": {
+    "@hubspot/cli": "^3.0.12",
+    "@hubspot/webpack-cms-plugins": "^3.0.6",
+    "autoprefixer": "^10.2.6",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^5.2.6",
+    "css-minimizer-webpack-plugin": "^3.0.2",
+    "mini-css-extract-plugin": "^2.0.0",
+    "postcss": "^8.3.5",
+    "postcss-import": "^14.0.2",
+    "postcss-loader": "^6.1.0",
+    "rimraf": "^3.0.2",
+    "style-loader": "^3.0.0",
+    "tailwindcss": "^2.2.4",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2",
+    "webpackbar": "^5.0.0-3"
+  }
+}
