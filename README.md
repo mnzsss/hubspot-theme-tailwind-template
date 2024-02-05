@@ -1,3 +1,6 @@
+
+<img src="./.github/images/banner.jpg" alt="HubSpot Tailwind CSS Starter" />
+
 # HubSpot Tailwind CSS Starter 🚀
 
 Jumpstart your HubSpot theme development with this Tailwind CSS and Webpack starter project.
